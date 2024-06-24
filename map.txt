@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/assets/leaflet/leaflet.css" />
+<script src="/assets/leaflet/leaflet.js"></script>
+
+
+template vide 
+@extends('template.main')
+
+@section('titre','map')
+@section('navbar')
+@section('sidebar')
+@section('grand_icon','map-marker')
+@section('grand_titre','Map')
+
+
+@section('contenu')
+
+@endsection
+
+@section('footer')
+
